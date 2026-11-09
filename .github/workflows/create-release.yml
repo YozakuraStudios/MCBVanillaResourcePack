@@ -84,7 +84,7 @@ jobs:
           body: |
             - Updated for **${{ steps.vars.outputs.tag }}**.
             - View the game changelog [here](${{ inputs.release_notes_url }}).
-            - View changes [here](https://github.com/ZtechNetwork/MCBVanillaResourcePack/compare/${{ steps.vars.outputs.old_tag }}...${{ steps.vars.outputs.tag }}).
+            - View changes [here](https://github.com/YozakuraStudios/MCBVanillaResourcePack/compare/${{ steps.vars.outputs.old_tag }}...${{ steps.vars.outputs.tag }}).
           prerelease: ${{ steps.vars.outputs.prerelease == 'true' }}
           make_latest: ${{ steps.vars.outputs.make_latest == 'true' }}
           files: |
